@@ -1,4 +1,6 @@
 import React from "react";
+import Landing from "../components/home/Landing";
+import Services from "../components/home/Services";
 import PageModule from "../modules/PageModule";
 
 const Home = () => {
@@ -7,7 +9,9 @@ const Home = () => {
       title="Ērtākais mājaslapu izstrādes risinājums"
       description="Ātrākais un ērtākais mājaslapu un e-veikalu izveides risinājums"
     >
-      Home
+      <Landing />
+
+      <Services />
     </PageModule>
   );
 };

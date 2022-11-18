@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { PageComponent } from "../types/PageComponent";
+import Navigation from "../components/navigation/Navigation";
 
 export interface PageModuleProps {
   title?: string;
@@ -16,10 +17,12 @@ const PageModule: PageComponent<PageModuleProps> = ({
   return (
     <main>
       <Head>
-        <title>{`2source${title ? title : ""}`}</title>
+        <title>{`2source${title ? ` - ${title}` : ""}`}</title>
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Navigation />
 
       {children}
     </main>
