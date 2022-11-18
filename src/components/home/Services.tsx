@@ -81,6 +81,7 @@ const Services = () => {
               "Dizaina izveidošana",
               "Mājaslapas izstrāde",
               "Mobile responsive dizains",
+              "SSL sertifikāts",
             ]}
           />
 
@@ -94,12 +95,13 @@ const Services = () => {
               "Veikala izstrāde",
               "Maksājumu sistēmas integrācija",
               "Mobile responsive dizains",
+              "SSL sertifikāts",
             ]}
           />
 
           <ServiceCard
             title="Bezmaksas hostings"
-            paragraph="Mājaslapu hostings"
+            paragraph="Mājaslapu hostings + SSL sertfikāts"
             image="/images/web-dev.jpg"
             services={[
               "HTML5 lapām",
@@ -107,6 +109,7 @@ const Services = () => {
               "Next.JS lapām",
               "Vue.JS lapām",
               "Remix.JS lapām",
+              "Nuxt.JS lapām",
               "Sveltekit lapām",
             ]}
           />
